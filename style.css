@@ -186,3 +186,44 @@ footer p {
         margin-bottom: 60px;
     }
 }
+
+/**** Responsive design version mobile ****/
+
+@media screen and (max-width: 767px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    header,
+    .main__content,
+    footer {
+        padding-inline: 30px;
+    }
+
+    .main__content {
+        padding-block: 100px;
+    }
+
+    .container__title {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .btn {
+        margin-bottom: 200px;
+    }
+
+    .container__image {
+        display: none;
+    }
+
+    footer p {
+        line-height: 1.5;
+    }
+}
