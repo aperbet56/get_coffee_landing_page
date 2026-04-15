@@ -1,5 +1,7 @@
 ## GET COFFEE ☕ | LANDING PAGE
 
+![Design preview for the project](./img/preview.png)
+
 ## Le challenge
 
 Création d'une landing page en HTML5, CSS3 et JavaScript.
